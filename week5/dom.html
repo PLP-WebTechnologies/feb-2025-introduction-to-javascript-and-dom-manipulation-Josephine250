@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset ="UTF-8"/>
+        <meta name = "viewport" container = "width=width-device ,initial-scale=1.0"/>
+        <title>intreractive of DOM to HTML page</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                padding: 20px;
+            }
+            #dynamicText {
+                font-size: 1.2em;
+                margin-bottom: 10px;
+            }
+            #elementcontainer{
+                margin-top: 10px;
+            }
+            .added-element {
+                padding: 5px;
+                background-color: lightblue;
+                margin-top: 5px;
+            }
+        </style>
+</head>
+<body>
+  <h1>Interactive DOM Example</h1>
+
+  <p id="dynamicText">This text will change dynamically.</p>
+  <button id="changeTextBtn">Change Text</button>
+
+  <div id="colorBox"></div>
+  <button id="changeColorBtn">Change Color</button>
+
+  <div id="elementContainer"></div>
+  <button id="addElementBtn">Add Element</button>
+  <button id="removeElementBtn">Remove Element</button>
+
+  <script src="dommanipulation.js"></script>
+</body>
+</html>
